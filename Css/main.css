@@ -1,0 +1,791 @@
+
+/* Start Global Roles*/
+*{
+    box-sizing: border-box;
+}
+
+/* End Global Roles*/
+/* start about*/
+.about-us{
+    background-color: #eee;
+    margin: 20px 0;
+    padding: 0 0 10px;
+}
+.responsiv-paragraph{
+    line-height: 1.5;
+}
+
+.img{
+    width: 25%;
+    height: 200px;
+    border : 1px solid white
+   
+}
+.pricing-table{
+    padding-top: 4px;
+    margin-top: 20px ;
+}
+.pricing-table .container{
+    margin-top: 5px;
+   
+}
+.pricing-plan{
+    width: 100%;
+    border: 2px solid white;
+    padding-bottom:4px ;
+    background-color: rgb(192, 190, 190);
+}
+
+.pricing-table .pricing-plan li{
+    line-height: 2  ;
+}
+.pricing-table .pricing-plan h3{
+    margin-bottom: 10px;
+}
+.pricing-table .pricing-plan span{
+  display: block;
+  color: rgb(32, 93, 146);
+  margin-bottom: 4px;
+}
+/* End about*/
+
+/* start what the say*/
+.what-the-say{
+    margin-top: 20px;
+}
+.what-the-say .container div:not(.clear-fix){
+    background-color:rgb(245, 245, 245);
+    padding: 5px 10px;
+    margin-bottom: 10px ;
+    border-radius: 20px;
+}
+
+
+.what-the-say .container .person1, .person2,.person3{
+    width: 25%;
+    float: left;
+    border: 1px solid rgb(160, 160, 160);
+}
+.what-the-say .container .person2{
+   margin-left: 25%;
+}
+.what-the-say .container h3{
+   margin-bottom: -14px;
+ }
+ .what-the-say .container .person3{
+    margin-right    : 25%;
+ }
+ .what-the-say .container p{
+     line-height: 1.7;
+     font-family: 'Baskervville', serif;
+     font-style: italic;
+     color: #3e4642;
+ }
+ /* end what the say*/  
+
+ /* start information*/
+.information{
+    background-color: rgb(219, 219, 219);
+    color: white;
+    padding: 20px 0  20px 0;
+}
+ul{
+    margin: auto;
+}
+.information .container ul li{
+   display:inline-block;
+    cursor: pointer;
+   margin: 0;
+   padding: 4px;
+  font-size: 20px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 2;
+}
+.information .container ul.info-list li:not(.list-1){
+    background-color: rgb(184, 184, 184);
+    color: black;
+}
+
+
+.information .container ul.info-list li.selected{
+    margin-left: 5px;
+    background-color: white;
+    color: green;
+    font-weight: 700;
+    margin: 0;
+}
+.information .container .content-info >div{
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+.information .container .content-info div:not(:first-of-type){
+ display: none;
+}
+/* end information*/
+
+/*start footer*/
+footer{
+    background-color: rgb(26, 26, 26);
+    color: white;
+    padding: 10px;
+}
+footer .container > div:not(.clear-fix){
+width: 50%;
+}
+/*End footer*/
+
+/* start xxsmall custom media*/
+@media(max-width:414px){
+    .information .container ul.info-list li{
+        display:inline-block;
+         cursor: pointer;
+        margin: 0;
+        padding: 4px;
+       font-size: 12px;
+       font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+     }
+     footer .container > div:not(.clear-fix){
+         float: none;
+         padding: 5px;
+        width: 100%;
+        }
+}
+/* end custom media*/
+
+/* start xsmall screen*/
+@media (max-width:767px){
+  
+ .main-header{
+     width: 100%;
+     height:300px;
+     background-image: url("https://www.elsetge.cat/myimg/f/7-78049_small-memory-8k-wallpaper-forest-minimalist-wallpaper-4k.jpg");
+    
+     position: relative;
+ }
+ .overlay{
+     width: 100%;
+     height: 100%;
+     background-color: rgba(145, 10, 10, 0.2);
+     position: absolute;
+     left: 0;
+     top: 0;
+ }
+ .overlay h1{
+     color: white;
+     margin-top: 130px ;
+ }
+ .plan1,.plan2{
+  padding: 5px 0px ;
+   width: 49%;
+   border: 2px SOLID white; 
+   color: white;
+
+   font-size: 10px;
+ }
+ .plan1{
+     margin-right: 1%;
+ }
+ .plan2{
+    margin-left: 1%;
+}
+ .plan3{
+  padding: 5px 0px ;
+  width: 100%;
+  border: 2px SOLID white; 
+  color: white;
+    margin-top: 2px;
+}
+
+.clear{
+    clear: both;
+}
+.container{
+    width: 100%;
+}
+.visibl-xs{
+    display: block !important;
+}
+.features{
+    text-align: center;
+    padding: 30px;
+}
+.features .container p{
+    line-height: 1.2;
+    margin: 0%;
+    font-family: 'Indie Flower', cursive;
+}
+.features .container >div h2{
+   color: gray;
+}
+.responsiv-paragraph{
+    color: gray;
+}
+.float-left{
+    float: none;
+}
+.our-work .container :not(.clear-fix){
+    width: 100%;
+}
+.pricing-table{
+    
+    background-color: rgb(48, 47, 47);
+    padding-bottom: 20px;
+    color: white;
+}
+.pricing-plan{
+    width: 100%;
+    padding-bottom: 20px;
+    float: none;
+    background-color: rgb(48, 47, 47);
+    margin-bottom: 5px;
+  
+}
+.what-the-say .container div:not(.clear-fix){
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.what-the-say .container .img1 {
+    float: none;
+    margin: 5px auto 0px;
+
+    
+    
+}
+.what-the-say .container .person1 h3,.what-the-say .container .person1 p {
+    float: none;
+   text-align: center;
+    
+    
+}
+.what-the-say .container .person1 h3,.what-the-say .container .person2 h3,.what-the-say .container .person3 h3 {
+   margin-top: 2px; 
+}
+.what-the-say .container .person2 h3,.what-the-say .container .person2 p {
+    float: none;
+   text-align: center;
+    
+    
+}
+.what-the-say .container .person3 h3,.what-the-say .container .person3 p {
+    float: none;
+   text-align: center;
+    
+    
+}
+.what-the-say .container .img1 {
+    float: none;
+    margin: 5px auto;
+    
+    
+}
+.what-the-say .container .img1{
+    display: block;
+}
+
+
+}
+/* end xsmall screen*/
+
+/* start small screen to lg screen*/
+@media (min-width:768px){
+ 
+ .main-header{
+     width: 100%;
+     height:600px;
+     background-image: url("https://www.elsetge.cat/myimg/f/7-78049_small-memory-8k-wallpaper-forest-minimalist-wallpaper-4k.jpg");
+    
+     position: relative;
+ }
+ .overlay{
+     width: 100%;
+     height: 100%;
+     background-color: rgba(145, 10, 10, 0.4);
+     position: absolute;
+     left: 0;
+     top: 0;
+ }
+ .overlay h1{
+     color: white;
+     margin-top: 130px ;
+    
+ }
+ .plan1,.plan2{
+   
+  
+        padding: 5px 0px ;
+         width: 49%;
+         border: 2px SOLID white; 
+         color: white;
+        
+       
+      
+   border: 2px SOLID white; 
+   color: white;
+   margin:0 auto 10px;
+   font-size: 8px;
+   font-weight: bold;
+   box-shadow: 0px 0px 10px 3px gray;
+
+ }
+ .plan1{
+    margin-right: 1%;
+}
+.plan2{
+   margin-left: 1%;
+}
+.plan3{
+    padding: 5px 0px ;
+         width: 100%;
+         border: 2px SOLID white; 
+         color: white;
+}
+.features{
+    padding: 30px 0;
+}
+.fast,.secure,.cheap{
+    
+    width: 32%;
+
+}
+.fast,.secure{
+    margin-right: 1%;
+}
+.cheap,.secure{
+    margin-left: 1%;
+}
+.features .container  .h1{
+ 
+    font-weight: 700;
+    font-style: italic;
+    color:#555
+}
+.features .container p{
+    line-height: 1.4;
+    margin: 0%;
+    font-family: 'Indie Flower', cursive;
+}
+
+}
+
+
+/*
+@media (max-width:767px){
+    h1{
+        color: rgb(128, 115, 0);
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    h1{
+        color: red;
+    }
+}
+@media (min-width:992px) and (max-width:1199px){
+    h1{
+        color: palegreen;
+    }
+}
+@media (min-width:1200px){
+    h1{
+      
+    }
+}
+*/
+/*
+@media (min-width:576px){
+    h1{
+        color: red;
+    }
+}
+@media (min-width:768px){
+    h1{
+        color: blueviolet;
+    }
+}
+@media (min-width:992px){
+    h1{
+        color: brown;
+    }
+}
+*/
+
+
+/* end small screen to lg screen*/
+
+/* start  change on xsmall screen*/
+@media (max-width:767px){
+    .visible-xs{
+        display: block !important;
+    }
+    .hidden-xs{
+        display: none !important;
+    }
+    
+}
+/* end change on xsmall screen*/
+
+/*start small screen*/
+@media (min-width:768px) and (max-width:991px){
+    .container{
+    width: 750px;
+    font-size: 20px;
+    }
+    .visible-sm{
+        display: block !important;
+    }
+    .hidden-sm{
+        display: none !important;
+    }
+    .features .container .fast{
+       
+        width: 100%;
+        margin: 0;
+        float: none;
+    }
+   
+    .features .container .cheap, .secure{
+       
+        width: 50%;
+        margin: 0;
+        padding: 0 10px;
+    }
+    .responsiv-paragraph{
+        color: rgb(34, 99, 55);
+        font-size: 17px;
+        font-style: italic;
+    }
+   .our-work .container .img{
+       width: 50%;
+   }
+   .pricing-table{
+    background-color: rgb(48, 47, 47);
+    padding-bottom: 20px;
+    color: white;
+}
+.pricing-plan{
+    width: 50%;
+    padding-bottom: 20px;
+    float: left;
+    background-color: rgb(48, 47, 47);
+  
+}
+.pricing-table .container div:first-of-type{
+ width: 49%;
+ margin-right: 1%;
+}
+.pricing-table .container div:nth-of-type(2){
+    width: 49%;
+    margin-left: 1%;
+}
+.visible-sm{
+    display: block;
+}
+
+.pricing-table .container div:nth-of-type(4){
+    float: none;
+  
+    margin:2%  auto;
+}
+.pricing-table .container div:nth-of-type(3) h3{
+    margin: 0;
+}
+.what-the-say .container div:not(.clear-fix){
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.what-the-say .container .img1 {
+    float: none;
+    margin: 5px auto 0px;
+
+    
+    
+}
+.what-the-say .container .person1 h3,.what-the-say .container .person1 p {
+    float: none;
+   text-align: center;
+    
+    
+}
+.what-the-say .container .person2 h3,.what-the-say .container .person2 p {
+    float: none;
+   text-align: center;
+    
+    
+}
+.what-the-say .container .person3 h3,.what-the-say .container .person3 p {
+    float: none;
+   text-align: center;
+    
+    
+}
+.what-the-say .container .img1 {
+    float: none;
+    margin: 5px auto 0;
+    
+    
+}
+.what-the-say .container .img1{
+    display: block;
+}
+.what-the-say .container .person1 h3,.what-the-say .container .person2 h3,.what-the-say .container .person3 h3 {
+    margin-top: 2px; 
+ }
+}
+/*end small screen*/
+
+/*start medium screen*/
+@media (min-width:992px) and (max-width:1199px){
+    .container{
+        width: 970px;
+        font-size: 30px;
+    }
+    .container > div {
+        font-size: 20px;
+    }
+    .visible-md{
+        display: block !important;
+    }
+    .hidden-md{
+        display: none !important;
+    }
+    .responsiv-paragraph{
+        color: rgb(107, 39, 39);
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .our-work .container .img{
+        width: 33.33%;
+    }
+    .pricing-table{
+        background-color: rgb(48, 47, 47);
+        padding-bottom: 20px;
+        color: white;
+    }
+    .pricing-plan{
+        width:32%;
+        padding-bottom: 20px;
+        float: left;
+        background-color: rgb(48, 47, 47);
+    }
+        .pricing-table .container div:first-of-type{
+            margin-right: 1%;
+        }
+       .pricing-table .container div:nth-of-type(2){
+            margin-left: 1%;
+          margin-right: 1%;
+      }
+      .pricing-table .container div:nth-of-type(4){
+          margin-left: 1%;
+      }
+      .what-the-say .container div:first-of-type{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .what-the-say .container div:last-of-type{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .what-the-say .container div:nth-of-type(2){
+        width:39%;
+        margin-left: 10%;
+        margin-right: 2%;
+      
+    }
+    .what-the-say .container div:nth-of-type(3){
+        width: 39%;
+        margin-right: 10%;
+      
+    }
+    .what-the-say .container .img1{
+        margin-right: 10px;
+        
+    }
+    .what-the-say .container h3{
+      margin-top: 24px;
+    }
+   
+}
+
+/* End medium screen*/
+
+/* start larg screen*/
+@media (min-width:1200px){
+    .container{
+    width: 1170px;
+    font-size: 30px;
+    }
+    .container > div {
+        font-size: 20px;
+    }
+
+    .visible-lg{
+        display: block !important;
+    }
+    .hidden-lg{
+        display: none !important;
+    }
+    .responsiv-paragraph{
+        font-style: italic;
+        font-size: 26px;
+    }
+    .pricing-table{
+        background-color: rgb(48, 47, 47);
+        padding-bottom: 20px;
+        color: white;
+        
+    }
+    .pricing-plan{
+        width:32%;
+        padding-bottom: 20px;
+        float: left;
+        background-color: rgb(48, 47, 47);
+      
+    }
+
+    /*
+    .container{
+        display: flex;
+    }
+    .container div:first-of-type{
+        order: 2;
+    }
+    .container div:nth-of-type(2){
+        order: 1;
+    }
+    .container div:nth-of-type(3){
+        order: 3;
+    }
+    */
+    .pricing-table .container .pricing-plan{
+     position: relative;
+     
+    }
+    .plus{
+        margin-left: 1%;
+        margin-right: 1%;
+        left: 33%;
+    }
+    .Premium{
+          margin-right: 1%;
+          margin-left: 0;
+        right: 33%;
+    }
+
+    .what-the-say .container div:first-of-type{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .what-the-say .container div:nth-of-type(2){
+        width: 44%;
+        margin-left: 5%;
+        margin-right: 2%;
+    }
+    .what-the-say .container div:nth-of-type(3){
+        width: 44%;
+        margin-right: 5%;
+    }
+    .what-the-say .container div:last-of-type{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .what-the-say .container .img1{
+
+        margin: 0 10px 0 0;
+      
+    }
+    .what-the-say .container .person1 p{
+     width: 739px;
+    }
+    .what-the-say .container .person2 p{
+        width: 357px;
+       }
+       .what-the-say .container .person3 p{
+        width: 357px;
+       }
+}
+
+/* End larg screen*/
+
+/*
+start my frame work
+*/
+
+.text-center{
+    text-align: center;
+}
+.background-image-full{
+    background-size: 100% 100%;
+}
+.clear-fix{
+    clear: both;
+}
+.container{
+   
+    margin: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.visible-xs,.visible-sm,.visible-md,.visible-lg{
+    display: none ; 
+}
+.hidden-xs,.hidden-sm,.hidden-md,.hidden-lg{
+    display: block;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.upper{
+    text-transform: uppercase;
+}
+.lower{
+    text-transform: lowercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    
+}
+.col-6{
+    width: 50%;
+}
+.font-nice{
+    font-family: 'Indie Flower', cursive;
+}
+.responsiv-img{
+    width: 100%;
+    height: 100%;
+  
+}
+.list-none-style{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.img-circle{
+border-radius: 50%;
+}
+.img-sumbnail{
+    border:2px solid black;
+    background-color: rgb(255, 255, 255);
+    padding: 3px;
+    box-shadow: 0 0 10px 10px gray;
+    }
+/*
+end my frame work
+*/
+
